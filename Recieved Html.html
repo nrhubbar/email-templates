@@ -1,0 +1,276 @@
+<style>
+
+/* iPad Text Smoother */
+div, p, a, li, td { -webkit-text-size-adjust:none; }
+
+.ReadMsgBody
+{width: 100%; background-color: #ffffff;}
+.ExternalClass
+{width: 100%; background-color: #ffffff;}
+body
+{width: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased; mso-margin-top-alt:0px; mso-margin-bottom-alt:0px; mso-padding-alt: 0px 0px 0px 0px;}
+html
+{width: 100%; }
+img
+{	border:0px;	outline:none;	text-decoration:none;	display:block; }
+
+a
+{
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+a.icon {
+  border: none;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+a.Callout-Button {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #900;
+  -webkit-text-size-adjust: none;
+  line-height: 30px;
+  align: center;
+}
+
+a.logo {
+  border: none;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+a span
+{
+  text-decoration:none;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #151516;
+  text-align: left;
+  line-height:40px;
+ }
+
+ h1.Callout-Button {
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 30px;
+   margin: 20px 0 20px 0;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   color: #151516;
+   line-height: 40px;
+ }
+
+ h1.BoxWrap {
+   text-transform: uppercase;
+   font-size: 30px;
+   margin: 20px 0 20px 0;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   color: #151516;
+   text-align: left;
+   line-height: 40px;
+ }
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+  color: #808185;
+  text-align: left;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif !important;
+  line-height: 22px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+h2.Upper-Text-Callout {
+   text-align: center;
+   color: #ffffff;
+}
+
+h3 {
+  font-size: 12px;
+  margin: 5px 0 5px 0;
+  color: #808185;
+  text-align: left;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 18px;
+}
+
+td.Date-Box {
+  word-break:break-word;
+  -webkit-hyphens:auto;
+  -moz-hyphens:auto;
+  hyphens:auto;
+  border-collapse:collapse !important;
+  vertical-align:top;
+  text-align:left;
+  position:relative;
+  color:#222222;
+  font-family:'Helvetica', 'Arial', sans-serif;
+  font-weight:normal;
+  line-height:19px;
+  font-size:15px;
+  margin:0;
+  padding:25px 0 10px 25px;
+}
+
+
+@media only screen and (max-width: 900px)
+{
+  td[class=headerBG] {width: 100%!important; background-repeat: no-repeat!important; background-size: 900px!important; background-position: center middle!important;}
+}
+
+@media only screen and (max-width: 640px)
+{
+  body{ width:auto!important; }
+
+  /* Box Wrap */
+  .BoxWrap { width:440px !important;  }
+
+  /* Show/Hide  */
+  .RespoHideMedium { display:none !important; }
+  .RespoShowMedium { display:block !important; }
+  .RespoCenterMedium { text-align:center !important; }
+
+
+  td[class=headerBG] {width: 100%!important;  background-repeat: no-repeat!important; background-size: 800px!important; background-position: center!important;}
+
+  img[class=RespoImage_OneTo50W],img[class=RespoImage_OneTo50]	 { width: 440px!important; height: 212px!important; }
+  img[class=RespoImage_OneTo75W],img[class=RespoImage_OneTo75] { width: 440px!important; height: 335px!important; }
+  img[class=RespoImage_OneToOneW],img[class=RespoImage_OneToOne] { width: 440px!important; height: 440px!important; }
+  img[class=RespoImage_70ToOneW],img[class=RespoImage_70ToOne] { width: 440px!important; height: 628px!important; }
+}
+
+@media only screen and (max-width: 479px)
+{
+  body{width:auto!important;}
+
+  /* Box Wrap */
+  .BoxWrap { width:280px !important;  }
+
+  /* Hide  */
+  .RespoHideSmall { display:none !important; }
+  .RespoCenterSmall { text-align:center !important; }
+
+  img[class=RespoImage_OneTo50W],img[class=RespoImage_OneTo50]	 { width: 280px!important; height: 135px!important; }
+  img[class=RespoImage_OneTo75W],img[class=RespoImage_OneTo75] { width: 280px!important; height: 213px!important; }
+  img[class=RespoImage_OneToOneW],img[class=RespoImage_OneToOne] { width: 280px!important; height: 280px!important; }
+  img[class=RespoImage_70ToOneW],img[class=RespoImage_70ToOne] { width: 280px!important; height: 400px!important; }
+
+}
+
+/**
+* @tab Background
+* @section Background Color
+* @tip Set the background color for your email's body content blocks.
+*/
+.Bg_Color
+{
+   /*@editable*/ background-color: #ffffff;
+}
+
+
+/**
+* @tab Background
+* @section Image Alternative Color
+* @tip Set the background image alternative color for non-supported browsers.
+*/
+.BgImageAltColor
+{
+   /*@editable*/ background-color: #900;
+}
+
+/**
+* @tab Background
+* @section preheader color
+* @tip Set the background color for your email's preheader block.
+*/
+.Preheader_Color
+{
+   /*@editable*/ background-color: #ffffff;
+}
+
+/**
+* @tab Content
+* @section content block01
+* @tip Set the background color for your email's body content blocks.
+*/
+.Content_Color
+{
+   /*@editable*/ background-color: #ffffff;
+}
+
+/**
+* @tab Colors
+* @section Color01_Bright
+* @tip Set the background color for your email's body content blocks.
+*/
+.Color01_B
+{
+   /*@editable*/ background-color: #9b9b9b;
+}
+
+/**
+* @tab Colors
+* @section Color01_Dark
+* @tip Set the background color for your email's body content blocks.
+*/
+.Color01_D
+{
+   /*@editable*/ background-color: #336699;
+}
+
+/**
+* @tab Colors
+* @section Color02_Bright
+* @tip Set the background color for your email's body content blocks.
+*/
+.Color02_B
+{
+    border: 2px solid #900;
+    border-radius:50px;
+    width:75%;
+    height:100px;
+    background-color: #ffffff;
+}
+.mktEditable
+{
+  word-break:break-word;
+  -webkit-hyphens:auto;
+  -moz-hyphens:auto;
+  hyphens:auto;
+  border-collapse:collapse !important;
+  vertical-align:top;
+  text-align:left;
+  color:#0091b5;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  line-height:19px;
+  font-size:15px;
+  margin:0;
+  padding:0 0 5px;
+  align:center;
+}
+
+</style>
